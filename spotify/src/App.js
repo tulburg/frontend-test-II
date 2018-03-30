@@ -69,9 +69,9 @@ function fetchRelatedArtists(artistId, callback) {
     });
 }
 
-// function load(on) {
-
-// }
+function load(on) {
+    console.log("hello");
+}
 
 class App extends Component { 
     constructor() {

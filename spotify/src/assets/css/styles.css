@@ -70,6 +70,25 @@ body, html {
   float: right;
   color: #4d4d4d; }
 
+ul.artists {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3px 2px;
+  list-style: none;
+  padding: 10px 40px 40px 40px;
+  max-width: 100%; }
+
+ul.artists li {
+  padding: 10px; }
+
+ul.artists li img {
+  max-width: 140px;
+  height: 140px;
+  border-radius: 50%; }
+
+ul.artists li .name {
+  text-align: center; }
+
 button, .button {
   border-radius: 20px;
   padding: 6px 20px;

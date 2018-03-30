@@ -16,4 +16,9 @@ body,html { background-color: $black; }
 .right .content ul li { font-size: 13px; padding: 5px 10px 5px 10px; border-bottom: 1px solid lighten($black, 7%); }
 .right .content ul li span { float: right; color: lighten($black, 30%); }
 
+ul.artists { display: grid; grid-template-columns: auto auto auto; grid-gap: 3px 2px; list-style: none; padding: 10px 40px 40px 40px; max-width: 100%; }
+ul.artists li { padding: 10px; }
+ul.artists li img { max-width: 140px; height: 140px; border-radius: 50%; }
+ul.artists li .name { text-align: center; }
+
 button, .button { border-radius: 20px; padding: 6px 20px; color: $white; cursor: pointer; margin-right: 10px; background-color: $green; text-decoration: none; border: 0px; outline: 0px; }
