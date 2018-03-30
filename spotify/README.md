@@ -1,5 +1,5 @@
 ## Run
 
---
-cd spority && npm install && npm start
---
+```javascript
+cd spotify && npm install && npm start
+```
