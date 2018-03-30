@@ -1,0 +1,9 @@
+@mixin darken_hover($background){
+	background-color:$background; &:hover{background-color:darken($background, 5%);}
+}
+@mixin darken_hover_active($background){
+	background-color:$background; &:hover{background-color:darken($background, 5%); &:active{background-color:darken($background, 15%);}}
+}
+@mixin darken_color_hover($color){
+	color:$color; &:hover{color:darken($color, 20%);}
+}

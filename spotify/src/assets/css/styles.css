@@ -1,0 +1,84 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  padding: 0px;
+  margin: 0px;
+  outline: 0px; }
+
+body, html {
+  background-color: #000000; }
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  color: #ffffff; }
+
+.container div.left {
+  width: 40%;
+  background-color: #0d0d0d; }
+
+.container div.right {
+  width: 60%;
+  overflow-y: scroll; }
+
+.left .cover {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 40px; }
+
+.left .cover img {
+  opacity: 0.6;
+  border-radius: 50%;
+  max-width: 150%; }
+
+.left .cover .title {
+  position: absolute;
+  bottom: 0px;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: bold;
+  left: 0px;
+  padding: 40px; }
+
+.left .cover .button {
+  position: absolute;
+  bottom: 10px;
+  left: 60px; }
+
+.right > div.content {
+  padding: 50px;
+  padding-top: 10px; }
+
+.right .heading {
+  margin: 40px 40px 0px 40px;
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom: 1px solid #262626;
+  text-transform: uppercase; }
+
+.right .content ul {
+  list-style: none; }
+
+.right .content ul li {
+  font-size: 13px;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid #121212; }
+
+.right .content ul li span {
+  float: right;
+  color: #4d4d4d; }
+
+button, .button {
+  border-radius: 20px;
+  padding: 6px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: #1ed760;
+  text-decoration: none;
+  border: 0px;
+  outline: 0px; }
+
+/*# sourceMappingURL=styles.css.map */
